@@ -1,0 +1,25 @@
+class Square
+ 
+  def perimeter(length)
+    return total = (length + length)*2
+  end 
+  
+  def area(length)
+    return total = length*length
+  end 
+end 
+
+class Rectangle < Square
+
+  def area(length) 
+    total = (length)
+  end
+end
+
+s1=Square.new
+s1.perimeter(6)
+s1.area(6)
+
+s2=Rectangle.new
+puts s2.area(6)
+puts s2.perimeter(6)
